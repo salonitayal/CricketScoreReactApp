@@ -31,14 +31,14 @@ function App() {
               return(
               <Fragment>
                 {
-                  ((match["team-1"]=="Royal Challengers Bangalore" || 
-                    match["team-1"]=="Chennai Super Kings" || 
-                    match["team-1"]=="Rajasthan Royals"  ||
-                    match["team-1"]=="Kings XI Punjab" || 
-                    match["team-1"]=="Kolkata Knight Riders" || 
-                    match["team-1"]=="Delhi Capitals"    ||
-                    match["team-1"]=="Mumbai Indians" || 
-                    match["team-1"]=="Sunrisers Hyderabad"
+                  ((match["team-1"]==="Royal Challengers Bangalore" || 
+                    match["team-1"]==="Chennai Super Kings" || 
+                    match["team-1"]==="Rajasthan Royals"  ||
+                    match["team-1"]==="Kings XI Punjab" || 
+                    match["team-1"]==="Kolkata Knight Riders" || 
+                    match["team-1"]==="Delhi Capitals"    ||
+                    match["team-1"]==="Mumbai Indians" || 
+                    match["team-1"]==="Sunrisers Hyderabad"
                   )?  
                   ( <MyCard key={match.unique_id} match={match} />) 
                   : (""))
