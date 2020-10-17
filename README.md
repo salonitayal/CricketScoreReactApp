@@ -1,7 +1,7 @@
 # CricketScoreApp
 A React app that fetches the cricket(IPL) data from cricapi.
  
-### Live Application URL: [ipl-score-react-app.netlify.app/](https://ipl-score-react-app.netlify.app/)
+### Live Application URL: [ipl-score-react-app.netlify.app](https://ipl-score-react-app.netlify.app/)
 
 In the project directory, you can run: 
 
